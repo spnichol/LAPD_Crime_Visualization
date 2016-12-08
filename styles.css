@@ -1,0 +1,67 @@
+
+body {
+    position: relative;
+    font-family: "Oswald";
+}
+
+html {
+    background: no-repeat center fixed; 
+    background-size: cover;
+    background-color: #5F5449;
+}
+h1 {
+    position: absolute;
+     left: 15%;
+     top: 10%;
+
+    -webkit-transform: translateX(-50%) translatey(-50%);
+    -moz-transform: translateX(-50%) translatey(-50%);
+    transform: translateX(-50%) translatey(-50%);50%);
+    font-size: 2.2em;
+    font-weight: 100;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+
+}
+h2 {
+     left: 15%;
+     top: 20%;
+  
+
+    -webkit-transform: translateX(-50%) translatey(-50%);
+    -moz-transform: translateX(-50%) translatey(-50%);
+    transform: translateX(-50%) translatey(-50%);50%);
+    position: absolute;
+
+    font-size: 2em;
+    color: #F7B801;
+}
+
+.hover {
+    fill: yellow;   
+}
+
+svg {
+    opacity: .9;
+    position: absolute;
+     left: 50%;
+     top: 70%;
+     background-color: white;
+    -webkit-transform: translateX(-50%) translatey(-50%);
+    -moz-transform: translateX(-50%) translatey(-50%);
+    transform: translateX(-50%) translatey(-50%);50%);
+}
+
+#sliderContainer {
+
+
+     left: 70%;
+     top: 15%;
+     color: white;
+     -webkit-transform: translateX(-50%) translatey(-50%);
+    -moz-transform: translateX(-50%) translatey(-50%);
+    transform: translateX(-50%) translatey(-50%);50%);
+    position: absolute;
+}
